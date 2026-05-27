@@ -3,27 +3,29 @@ import { Scale } from 'lucide-react';
 
 export default function Comparacion() {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md space-y-6">
-      <div className="flex items-center gap-2 mb-4 border-b pb-4">
-        <Scale className="text-indigo-500 w-8 h-8" />
-        <h2 className="text-3xl font-bold text-gray-800">04. Comparación de Marcos Regulatorios</h2>
+    <div className="p-8 bg-white rounded-[32px] shadow-soft border border-slate-200 space-y-8">
+      <div className="flex flex-col gap-3 border-b border-slate-200 pb-5 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-3">
+          <Scale className="text-indigo-500 w-9 h-9" />
+          <h2 className="text-3xl font-semibold text-slate-950">04. Comparación de Marcos Regulatorios</h2>
+        </div>
       </div>
       
-      <p className="text-gray-600">
+      <p className="text-slate-900 leading-relaxed">
         Análisis comparativo entre la legislación chilena y los marcos internacionales aplicados a la industria de plataformas de entretenimiento y videojuegos:
       </p>
 
-      <div className="overflow-x-auto border rounded-lg">
-        <table className="min-w-full divide-y divide-gray-200 text-left">
-          <thead className="bg-gray-900 text-white text-sm">
+      <div className="overflow-x-auto rounded-[28px] border border-slate-200 shadow-sm">
+        <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+          <thead className="bg-slate-950 text-white text-sm">
             <tr>
-              <th className="px-4 py-3 font-semibold">Ejes de Análisis</th>
-              <th className="px-4 py-3 font-semibold">Ley N° 21.459 (Chile)</th>
-              <th className="px-4 py-3 font-semibold">GDPR (Unión Europea)</th>
-              <th className="px-4 py-3 font-semibold">NIST Framework</th>
+              <th className="px-5 py-4 font-semibold">Ejes de Análisis</th>
+              <th className="px-5 py-4 font-semibold">Ley N° 21.459 (Chile)</th>
+              <th className="px-5 py-4 font-semibold">GDPR (Unión Europea)</th>
+              <th className="px-5 py-4 font-semibold">NIST Framework</th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-gray-200 text-xs text-gray-700 bg-white">
+          <tbody className="divide-y divide-slate-200 bg-white text-sm text-slate-700">
             <tr>
               <td className="px-4 py-4 font-bold bg-gray-50 border-r">Ámbito de Aplicación</td>
               <td className="px-4 py-4">Persecución penal de delincuentes informáticos en territorio nacional.</td>

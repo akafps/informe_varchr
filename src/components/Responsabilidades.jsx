@@ -3,14 +3,16 @@ import { Users, Shield, Briefcase, FileText } from 'lucide-react';
 
 export default function Responsabilidades() {
   return (
-    <div className="p-6 bg-white rounded-lg shadow-md space-y-6">
-      <div className="flex items-center gap-2 mb-4 border-b pb-4">
-        <Users className="text-orange-500 w-8 h-8" />
-        <h2 className="text-3xl font-bold text-gray-800">05. Responsabilidades Legales</h2>
+    <div className="p-8 bg-white rounded-[32px] shadow-soft border border-slate-200 space-y-8">
+      <div className="flex flex-col gap-3 border-b border-slate-200 pb-5 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center gap-3">
+          <Users className="text-orange-500 w-9 h-9" />
+          <h2 className="text-3xl font-semibold text-slate-950">05. Responsabilidades Legales</h2>
+        </div>
       </div>
 
-      <div className="space-y-4">
-        <div className="p-4 bg-orange-50 rounded-lg border border-orange-200 flex gap-3 items-start">
+      <div className="grid gap-5">
+        <div className="rounded-[28px] border border-orange-200 bg-orange-50 p-6 shadow-sm flex gap-4 items-start">
           <Shield className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
           <div>
             <h3 className="font-bold text-orange-950 text-lg">Responsabilidad Penal (Grupo Ragnar Locker)</h3>
@@ -19,7 +21,7 @@ export default function Responsabilidades() {
           </div>
         </div>
 
-        <div className="p-4 bg-orange-50 rounded-lg border border-orange-200 flex gap-3 items-start">
+        <div className="rounded-[28px] border border-orange-200 bg-orange-50 p-6 shadow-sm flex gap-4 items-start">
           <Briefcase className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
           <div>
             <h3 className="font-bold text-orange-950 text-lg">Responsabilidad Civil (Capcom Persona Jurídica)</h3>
@@ -28,7 +30,7 @@ export default function Responsabilidades() {
           </div>
         </div>
 
-        <div className="p-4 bg-orange-50 rounded-lg border border-orange-200 flex gap-3 items-start">
+        <div className="rounded-[28px] border border-orange-200 bg-orange-50 p-6 shadow-sm flex gap-4 items-start">
           <FileText className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
           <div>
             <h3 className="font-bold text-orange-950 text-lg">Responsabilidad Administrativa (Ante Reguladores)</h3>

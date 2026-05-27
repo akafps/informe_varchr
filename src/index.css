@@ -1,3 +1,18 @@
+@reference "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-slate-100 text-slate-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-slate-300 text-slate-900;
+  }
+}

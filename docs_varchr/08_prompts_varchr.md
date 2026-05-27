@@ -1,14 +1,15 @@
 # 08. Bitácora de Uso de IA
 
 ## Declaración de Interacciones
-* Herramientas Utilizadas: Gemini AI y Claude.
-* Contexto de Uso: Estructuración del entorno de desarrollo (React, Vite, Tailwind CSS v4, PostCSS), resolución de conflictos en la compilación de hojas de estilo y optimización técnica de componentes para el renderizado del informe de ciberseguridad.
+* Herramientas Utilizadas: Gemini AI, Claude y GitHub Copilot.
+* Contexto de Uso: Configuración del entorno de desarrollo frontend, resolución de dependencias de NPM, estructuración del pipeline de PostCSS para Tailwind v4, consultas sobre las leyes N° 21.459 y N° 19.628 en Chile, y autocompletado de lógica repetitiva en React.
 
-## Prompts Relevantes Utilizados
-1. "Genera una guía paso a paso para inicializar un proyecto desde cero utilizando Vite, React y Tailwind CSS v4, detallando los comandos de consola necesarios para la correcta instalación de dependencias."
-2. "Tengo un error de compilación en Vite [plugin:vite:css] que indica que PostCSS no reconoce la directiva tradicional de tailwindcss debido a la versión v4. ¿Cómo debo configurar el adaptador @tailwindcss/postcss y reestructurar el archivo postcss.config.js para solucionar el quiebre de estilos?"
-3. "Propón un caso de estudio sobre incidentes de ciberseguridad transnacionales con impacto en la industria del entretenimiento digital o plataformas masivas, que sea viable para ser analizado de forma analógica bajo la legislación penal y civil de la República de Chile."
-4. "Diseña la estructura visual en React y Tailwind CSS para un conjunto de componentes modulares, optimizando el uso de grillas, tablas y tarjetas contenedoras para desplegar de forma limpia un informe técnico previamente redactado."
+## Prompts Relevantes Utilizados (Flujo Cronológico Real)
+1. "Oye, estoy armando un proyecto con Vite y React desde CMD pero PowerShell me tira un error de políticas de ejecución de scripts y no me deja levantar el entorno. ¿Cómo lo soluciono rápido sin romper los permisos de Windows?"
+2. "Instalé Tailwind CSS v4 pero me tira un error gigante de compilación en el css de Vite que dice que PostCSS no reconoce la directiva base. Dame el archivo postcss.config.js exacto y el plugin que tengo que bajar por npm para arreglar el quiebre de estilos."
+3. "Tengo que hacer un informe para INACAP sobre ciberseguridad enfocado en Chile. ¿Me sirve el hackeo de ransomware que le hicieron a Capcom en el 2020 para analizarlo con la nueva ley chilena de delitos informáticos 21.459 y ver si calza con el robo de datos?"
+4. "Tengo creados unos archivos .md con la investigación del caso de Capcom en Chile. Necesito que me diseñes la estructura visual en código React (.jsx) usando componentes modulares y tarjetas con iconos de Lucide-react para meter la información limpia en pestañas usando Tailwind."
+5. [Uso de GitHub Copilot vía comentarios en código]: "// Generar el estado de React (useState) para controlar la pestaña activa del menú y la función Switch para renderizar condicionalmente los componentes del Marco Legal del 01 al 08."
 
 ## Reflexión sobre el uso de la IA
-La combinación de modelos de Inteligencia Artificial funcionó como un acelerador técnico en la depuración de errores críticos de configuración del sistema operativo (bloqueos de directivas en PowerShell) y la resolución de incompatibilidades en el pipeline de CSS con Tailwind v4. En el plano del desarrollo frontend, permitieron maquetar rápidamente una interfaz interactiva y adaptada a la rúbrica de INACAP basándose en los datos analizados, optimizando los tiempos de diseño visual a través de la integración limpia de estilos.
+El uso complementario de Gemini, Claude y GitHub Copilot se enfocó como un soporte de ingeniería inverso. Los modelos de chat permitieron destrabar errores críticos del sistema operativo en la consola de Windows, resolver incompatibilidades de PostCSS y agrupar el marco legal chileno. Por otro lado, GitHub Copilot optimizó los tiempos de desarrollo directamente en el editor mediante el autocompletado de código repetitivo (como la estructura de las pestañas, importaciones de iconos y el enrutamiento lógico), logrando un flujo de trabajo fluido y eficiente.

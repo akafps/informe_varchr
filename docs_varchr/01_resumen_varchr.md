@@ -9,7 +9,7 @@ El ataque fue detectado oficialmente por los equipos de seguridad de Capcom el 2
 ## Actores Involucrados
 * Atacantes: El grupo delictivo "Ragnar Locker", operadores del ransomware.
 * Afectados Directos: Capcom Co., Ltd. (y bajo el escenario de este análisis, su infraestructura y servidores de atención para usuarios en territorio de la República de Chile).
-* Afectados Indirectos: Más de 350.000 personas, incluyendo clientes, jugadores de la plataforma online, empleados y exempleados, cuyas informaciones personales fueron compromised.
+* Afectados Indirectos: Más de 350.000 personas, incluyendo clientes, jugadores de la plataforma online, empleados y exempleados, cuyas informaciones personales fueron comprometidas.
 
 ## Impacto Global y Pérdidas
 El incidente generó un impacto multidimensional:
