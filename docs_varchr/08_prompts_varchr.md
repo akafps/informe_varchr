@@ -20,6 +20,8 @@
 11. [Claude]: "quiero tener un boton clickeable que redireccione a mi github para tener en mi pagina"
 12. [Claude]: "no se arreglo, quedo exactamente igual, mandame el codigo a como estaba antes del github y lo del boton, y asi yo borro el github.jsx, una especie de rollback
 13. [Claude]: "hace que la fuente de los items mostrados en la foto se puedan dilucidar de meojr forma con el fondo y el contorno de la pagina, quizas ponerlos siempre en cursiva y no solo al pasar el mouse encima"
+14. [Claude]: "arreglalo a tu parecer para que los colores queden mas bonitos, tomando en cuentra el poder leerse el texto, todo siguiendo el color azul que esta puesto, te dejo libertad creativa para que arregles los colores, fuentes, todo legible
+15. [CHAT GPT]: "manda la linea de codigo en donde esta "Caso Capcom analizado bajo el marco legal de la República de Chile." en mi pagina, revisa todo el app.jsx y adjunta solo esa linea en especifico" 
 
 
 ## Reflexión sobre el uso de la IA
