@@ -12,7 +12,7 @@ export default function Resumen() {
 
       {/* Intro */}
       <p className="text-slate-900 leading-relaxed text-justify">
-        En noviembre de 2020, la multinacional de videojuegos <strong>Capcom</strong> sufrió un ataque informático masivo perpetrado por el grupo criminal <strong>"Ragnar Locker"</strong>. Los atacantes lograron infiltrarse en los servidores internos utilizando un ransomware personalizado, cifrando los sistemas y exigiendo un rescate millonario. Bajo el escenario planteado para esta evaluación, analizamos el impacto hipotético de este incidente sobre la infraestructura de la empresa en territorio chileno.
+        En noviembre de 2020, la multinacional de videojuegos <strong>Capcom</strong> sufrió un ataque informático masivo perpetrado por el grupo criminal <strong>"Ragnar Locker"</strong>. Los atacantes lograron infiltrarse en los servidores internos utilizando un ransomware personalizado, cifrando más de 1 TB de archivos críticos y exigiendo un rescate de 11 millones de dólares en criptomonedas. El acceso inicial se obtuvo a través de una VPN obsoleta de la red norteamericana de la compañía, lo que permitió al grupo moverse lateralmente hasta comprometer los sistemas centrales. Bajo el escenario planteado para esta evaluación, analizamos el impacto hipotético de este incidente sobre la infraestructura de la empresa en territorio chileno, considerando las obligaciones legales vigentes bajo la normativa nacional.
       </p>
 
       {/* Grid de 2 cards */}
@@ -41,7 +41,7 @@ export default function Resumen() {
             <span>¿Cuándo ocurrió?</span>
           </div>
           <p style={{ fontSize: '0.875rem', color: '#0f172a', lineHeight: 1.65, margin: 0, flexGrow: 1 }}>
-            Detectado el 2 de noviembre de 2020, con filtraciones de datos que se extendieron durante las semanas siguientes.
+            Detectado el 2 de noviembre de 2020, con filtraciones de datos que se extendieron durante las semanas siguientes. La empresa tardó varios días en contener el ataque y restaurar la operatividad parcial de sus sistemas internos.
           </p>
         </div>
 
@@ -62,8 +62,8 @@ export default function Resumen() {
             <span>Actores Involucrados</span>
           </div>
           <p style={{ fontSize: '0.875rem', color: '#0f172a', lineHeight: 1.65, margin: 0, flexGrow: 1 }}>
-            <strong>Atacantes:</strong> Ragnar Locker.<br />
-            <strong>Afectados:</strong> Capcom Chile, empleados, colaboradores y más de 350.000 usuarios de la plataforma de videojuegos.
+            <strong>Atacantes:</strong> Ragnar Locker, grupo criminal de ransomware con operaciones en Europa del Este.<br /><br />
+            <strong>Afectados:</strong> Capcom Chile, empleados, colaboradores y más de 350.000 usuarios de la plataforma de videojuegos cuyos datos fueron expuestos públicamente.
           </p>
         </div>
       </div>
@@ -82,9 +82,10 @@ export default function Resumen() {
           <span>Impacto General</span>
         </div>
         <ul style={{ paddingLeft: '1.25rem', margin: 0, fontSize: '0.875rem', color: '#0c0a09', lineHeight: 1.75 }}>
-          <li><strong>Financiero:</strong> Paralización de operaciones y costos de remediación de sistemas.</li>
-          <li><strong>Propiedad Intelectual:</strong> Filtración de códigos fuente y planes comerciales.</li>
-          <li><strong>Privacidad:</strong> Exposición masiva en la Dark Web de nombres, correos y datos de contacto de jugadores chilenos.</li>
+          <li><strong>Financiero:</strong> Paralización de operaciones por varios días, costos de remediación de sistemas, honorarios de respuesta a incidentes y potenciales multas regulatorias.</li>
+          <li><strong>Propiedad Intelectual:</strong> Filtración de códigos fuente de videojuegos no lanzados, planes comerciales confidenciales y roadmaps de desarrollo.</li>
+          <li><strong>Privacidad:</strong> Exposición masiva en la Dark Web de nombres, correos, fechas de nacimiento y datos de contacto de más de 350.000 jugadores chilenos y extranjeros.</li>
+          <li><strong>Reputacional:</strong> Pérdida de confianza de clientes, socios comerciales e inversores, con cobertura mediática internacional negativa durante semanas.</li>
         </ul>
       </div>
     </div>

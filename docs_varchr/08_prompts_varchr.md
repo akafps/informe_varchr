@@ -11,6 +11,7 @@
 4. [Gemini]"Tengo creados unos archivos .md con la investigación del caso de Capcom en Chile. Necesito que me diseñes la estructura visual en código React (.jsx) usando componentes modulares y tarjetas con iconos de Lucide-react para meter la información limpia en pestañas usando Tailwind."
 5. [Uso de GitHub Copilot]: "// generar el estado de React (useState) para controlar la pestaña activa del menú y la función Switch para renderizar condicionalmente los componentes del Marco Legal del 01 al 08."
 6. [Claude]: "arregla este codigo para que quede bien ordenado y no queden acopladas una sobre otra sin perder la simetria de los cuadros"
-7. 
+7. [Claude]: "me tira error, tengo que cambiar otro archivo de la carpeta del vs code o el error va mas por coneccion de la pagina"
+8. [CHAT GPT]: 
 ## Reflexión sobre el uso de la IA
 El uso complementario de Gemini, Claude y GitHub Copilot se enfocó como un soporte de ingeniería inverso. Los modelos de chat permitieron destrabar errores críticos del sistema operativo en la consola de Windows, resolver incompatibilidades de PostCSS y agrupar el marco legal chileno. Por otro lado, GitHub Copilot optimizó los tiempos de desarrollo directamente en el editor mediante el autocompletado de código repetitivo (como la estructura de las pestañas, importaciones de iconos y el enrutamiento lógico), logrando un flujo de trabajo fluido y eficiente.
