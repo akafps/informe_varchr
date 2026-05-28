@@ -17,6 +17,9 @@
 8. [CHAT GPT]: "agrega la informacion restante usada en prompts.jsx para poder visualizarlo en mi pagina"
 9. [CHAT GPT] "hace que el texto calce con los recuadros y asi no tener vacios o espacios sin texto/informacion, todo basado en el codigo mandado anteriormente con su respectiva informacion/texto"
 10. [Claude]: "enumera los prompts usados del 1 al ultimo, de manera ordenara sin perder el toque visual del codigo"
+11. [Claude]: "quiero tener un boton clickeable que redireccione a mi github para tener en mi pagina"
+12. [Claude]: "no se arreglo, quedo exactamente igual, mandame el codigo a como estaba antes del github y lo del boton, y asi yo borro el github.jsx, una especie de rollback
+13. [Claude]: "hace que la fuente de los items mostrados en la foto se puedan dilucidar de meojr forma con el fondo y el contorno de la pagina, quizas ponerlos siempre en cursiva y no solo al pasar el mouse encima"
 
 
 ## Reflexión sobre el uso de la IA
