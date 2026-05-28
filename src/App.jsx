@@ -10,7 +10,6 @@ import {
   Bot 
 } from 'lucide-react';
 
-// Importación de tus componentes con los datos reales
 import Resumen from './components/Resumen';
 import Marco from './components/Marco';
 import Delitos from './components/Delitos';
@@ -23,44 +22,34 @@ import Prompts from './components/Prompts';
 export default function App() {
   const [activeTab, setActiveTab] = useState('resumen');
 
-  // Función para renderizar el componente según la pestaña activa
   const renderContent = () => {
     switch (activeTab) {
-      case 'resumen':
-        return <Resumen />;
-      case 'marco':
-        return <Marco />;
-      case 'delitos':
-        return <Delitos />;
-      case 'comparacion':
-        return <Comparacion />;
-      case 'responsabilidades':
-        return <Responsabilidades />;
-      case 'datos':
-        return <Datos />;
-      case 'conclusiones':
-        return <Conclusiones />;
-      case 'prompts':
-        return <Prompts />;
-      default:
-        return <Resumen />;
+      case 'resumen':           return <Resumen />;
+      case 'marco':             return <Marco />;
+      case 'delitos':           return <Delitos />;
+      case 'comparacion':       return <Comparacion />;
+      case 'responsabilidades': return <Responsabilidades />;
+      case 'datos':             return <Datos />;
+      case 'conclusiones':      return <Conclusiones />;
+      case 'prompts':           return <Prompts />;
+      default:                  return <Resumen />;
     }
   };
 
   const menuItems = [
-    { id: 'resumen', label: '01. Resumen', icon: FileText },
-    { id: 'marco', label: '02. Marco Normativo', icon: Gavel },
-    { id: 'delitos', label: '03. Delitos', icon: ShieldAlert },
-    { id: 'comparacion', label: '04. Comparación', icon: Scale },
-    { id: 'responsabilidades', label: '05. Responsabilidades', icon: Users },
-    { id: 'datos', label: '06. Datos Personales', icon: Database },
-    { id: 'conclusiones', label: '07. Conclusiones', icon: CheckCircle },
-    { id: 'prompts', label: '08. Bitácora IA', icon: Bot },
+    { id: 'resumen',            label: '01. Resumen',           icon: FileText },
+    { id: 'marco',              label: '02. Marco Normativo',   icon: Gavel },
+    { id: 'delitos',            label: '03. Delitos',           icon: ShieldAlert },
+    { id: 'comparacion',        label: '04. Comparación',       icon: Scale },
+    { id: 'responsabilidades',  label: '05. Responsabilidades', icon: Users },
+    { id: 'datos',              label: '06. Datos Personales',  icon: Database },
+    { id: 'conclusiones',       label: '07. Conclusiones',      icon: CheckCircle },
+    { id: 'prompts',            label: '08. Bitácora IA',       icon: Bot },
   ];
 
   return (
     <div className="flex min-h-screen bg-slate-100 text-slate-900 font-sans">
-      {/* Sidebar Lateral */}
+
       <aside className="w-80 bg-slate-950 text-white flex flex-col justify-between p-6 fixed h-full z-10">
         <div className="space-y-6">
           <div>
@@ -96,12 +85,12 @@ export default function App() {
         </div>
       </aside>
 
-      {/* Contenedor Principal de la Información */}
       <main className="flex-1 ml-80 p-10 min-h-screen bg-slate-100 flex flex-col justify-start">
         <div className="max-w-4xl w-full mx-auto transition-opacity duration-300">
           {renderContent()}
         </div>
       </main>
+
     </div>
   );
 }

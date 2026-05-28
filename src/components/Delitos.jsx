@@ -22,6 +22,16 @@ const delitos = [
     descripcion:
       'Los atacantes, conociendo el origen ilícito de la información sustraída, almacenaron, comercializaron y divulgaron masivamente en un sitio web de la Dark Web los datos personales robados.',
   },
+  {
+    titulo: 'Sabotaje Informático (Artículo 4)',
+    descripcion:
+      'Al cifrar más de 1 TB de archivos críticos mediante ransomware personalizado, el grupo Ragnar Locker obstaculizó deliberadamente el funcionamiento de los sistemas de Capcom, impidiendo el acceso legítimo de la empresa a su propia infraestructura tecnológica y paralizando sus operaciones por varios días.',
+  },
+  {
+    titulo: 'Extorsión Informática (Artículo 8)',
+    descripcion:
+      'Tras el cifrado de los sistemas, los atacantes exigieron un rescate de 11 millones de dólares en criptomonedas como condición para restituir el acceso a los datos y evitar la publicación masiva de información confidencial, configurando una amenaza coactiva con fines de lucro ilícito.',
+  },
 ];
 
 export default function Delitos() {
